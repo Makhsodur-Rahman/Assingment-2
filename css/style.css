@@ -1,0 +1,122 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    box-sizing: border-box;
+}
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+.container:before,
+.container:after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+/* nav part strt */
+.logo{
+    height: 70px;
+    width: 300px;
+    margin: 0;
+    padding: 0;
+}
+.logo img{
+    height: 60px;
+    width: 250px;
+}
+.bg-color{
+   background-color: #FFFBF0; 
+}
+/* nav part end */
+
+
+/* banner part start */
+.banner-contant{
+    text-shadow: 0 1px 0 #CCCCCC, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, .1), 0 0 5px rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .3), 0 3px 5px rgba(0, 0, 0, .2), 0 5px 10px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .2), 0 20px 20px rgba(0, 0, 0, .15);
+}
+.banner-contant h2{
+    font-size: 60px;
+    margin-top: 70px;
+    color: #363958;
+}
+.banner-contant h2 span{
+    color: #FABE4C;
+}
+.banner-contant a{
+    height: 50px;
+    width: 150px;
+    line-height: 30px;
+    background-color: #95AE30;
+    border-radius: 10px;
+    color: white;
+}
+/* banner part end */
+
+
+/* woman jaket part start */
+.jacket{
+    color: #363958;
+    text-shadow: 0 1px 0 #CCCCCC, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, .1), 0 0 5px rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .3), 0 3px 5px rgba(0, 0, 0, .2), 0 5px 10px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .2), 0 20px 20px rgba(0, 0, 0, .15);
+    
+}
+.bg-img {}
+.bg-img img{
+    background-color: #F1F1F1;
+    border: none;
+    border-radius: 30px;
+    height: 350px;
+    width: 180px;
+    padding-top: 20px;
+}
+
+.card-buton a{
+    height: 50px;
+    width: 150px;
+    line-height: 30px;
+    background-color: #95AE30;
+    border-radius: 10px;
+    padding-left: 10px;
+    color: white;
+    text-shadow: 0 1px 0 #CCCCCC, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, .1), 0 0 5px rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .3), 0 3px 5px rgba(0, 0, 0, .2), 0 5px 10px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .2), 0 20px 20px rgba(0, 0, 0, .15);
+}
+.card-buton h3{
+    color: #FABE4C;
+    text-shadow: 0 1px 0 #CCCCCC, 0 2px 0 #c9c9c9, 0 3px 0 #bbb, 0 4px 0 #b9b9b9, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, .1), 0 0 5px rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .3), 0 3px 5px rgba(0, 0, 0, .2), 0 5px 10px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .2), 0 20px 20px rgba(0, 0, 0, .15);
+}
+.card-border{
+    border: 1px solid rgba(246, 242, 242, 0.100);
+    border-radius: 20px;
+}
+/* woman jacket part end */
+
+/* shiping-card part start */
+
+.radius{
+    margin-top: 20px;
+    border-radius: 10px;
+    height: 170px;
+    width: 400px;
+}
+.logo-img{
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.shiping-img{
+    margin-top: 77px;
+}
+
+/* shiping-card part end */
+
+/* sign up form start  */
+.bg-img{
+    background-image: url(../images/Image/form5.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.sign-in{
+    padding: 53px;
+    margin-top: 2px;
+}
+/* sign up form start  */
